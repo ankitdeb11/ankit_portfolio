@@ -120,7 +120,7 @@ const Qualifications = () => {
 
             <div className="qualifications__data">
               <div>
-                <h3 className="qualifications__title">App Developer</h3>
+                <h3 className="qualifications__title">App Developer Intern</h3>
                 <span className="qualifications__subtitle">PayGRT - INDIA</span>
 
                 <div className="qualifications__calender">
