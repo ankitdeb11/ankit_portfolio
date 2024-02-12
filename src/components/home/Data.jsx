@@ -1,5 +1,5 @@
 import React from 'react';
-// import { useTypewriter } from 'react-simple-typewriter';
+import { useTypewriter } from 'react-simple-typewriter';
 
 
 
@@ -7,13 +7,13 @@ import React from 'react';
 const Data = () => {
 
 
-    // const [text] = useTypewriter({
-    //     words: ['Web Developer', 'Video Editor', 'Photgrapher', ' Android Developer'],
-    //     loop: {},
-    //     typeSpeed: 60,
-    //     deleteSpeed: 80,
+    const [text] = useTypewriter({
+        words: ['Software Developer', 'Visual Effects Editor', 'Photographer'],
+        loop: {},
+        typeSpeed: 50,
+        deleteSpeed: 80,
 
-    // })
+    })
 
 
 
@@ -77,8 +77,8 @@ const Data = () => {
 
 
             <h3 className="home__subtitle">
-                {/* <span>{text}</span> */}
-                <span>Software Developer</span>
+                <span>{text}</span>
+                {/* <span>Software Developer</span> */}
             </h3>
             <p className="home__description">Elevating experiences through code, crafting digital dreams. Glad to have you onboard, champ! <i class="uil uil-smile-beam"></i>
             </p>
