@@ -83,8 +83,9 @@ textarea {
 }
 
 body {
-  /* background-color: var(--body-color); */
-  background-color: #fff;
+  background-color: var(--body-color);
+  /* background-color: black; */
+  /* background-color: #fff; */
   color: var(--text-color);
 }
 
