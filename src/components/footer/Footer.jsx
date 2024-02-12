@@ -37,6 +37,7 @@ const Footer = () => {
 
 
                 <span className='footer__copy'> 
+                Made with <i class='bx bxl-react'></i> by Ankit.  <br />
                 Portfolio is to be updated further. <br />
                 &#169; Ankit Deb 2024. All Rights Reserved.
                 </span>
