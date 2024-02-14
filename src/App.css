@@ -84,9 +84,11 @@ textarea {
 
 body {
   background-color: var(--body-color);
-  /* background-color: black; */
-  /* background-color: #fff; */
   color: var(--text-color);
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 h1,
