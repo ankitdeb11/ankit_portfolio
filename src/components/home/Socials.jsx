@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Socials = () => {
     return (
         <div className="home__social">
 
 
-            <a href="https://www.instagram.com/" className="home__social-icon" rel="noreferrer" target="_blank">
-                <i class="uil uil-instagram-alt"></i>
+            <a href="https://twitter.com/ankitdeb7722" className="home__social-icon" rel="noreferrer" target="_blank">
+            <i class="uil uil-twitter"></i>
             </a>
 
             <a href="https://www.linkedin.com/in/ankitdeb11" className="home__social-icon" target="_blank" rel="noreferrer">

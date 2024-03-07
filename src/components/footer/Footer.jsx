@@ -29,17 +29,17 @@ const Footer = () => {
                         <i class='bx bxl-discord-alt' ></i>
                     </a>
 
-                    <a href="https://twitter.com/ankitdeb7722" className="footer__social-link" target="_blank" rel="noreferrer">
-                        <i class='bx bxl-twitter' ></i>
+                    <a href="https://www.instagram.com/" className="footer__social-link" target="_blank" rel="noreferrer">
+                        <i class='bx bxl-instagram'></i>
                     </a>
 
                 </div>
 
 
-                <span className='footer__copy'> 
-                Made with <i class='bx bxl-react'></i> by Ankit.  <br />
-                Portfolio is to be updated further. <br />
-                &#169; Ankit Deb 2024. All Rights Reserved.
+                <span className='footer__copy'>
+                    Made with <i class='bx bxl-react'></i> by Ankit.  <br />
+                    Portfolio is to be updated further. <br />
+                    &#169; Ankit Deb 2024. All Rights Reserved.
                 </span>
 
             </div>

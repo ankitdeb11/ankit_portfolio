@@ -87,8 +87,26 @@ body {
   color: var(--text-color);
 }
 
-body::-webkit-scrollbar{
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(196, 196, 196); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(187, 187, 187); 
 }
 
 h1,
