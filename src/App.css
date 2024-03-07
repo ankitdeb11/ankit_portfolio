@@ -85,29 +85,37 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+
+
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 11px;
+  
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: white;
   border-radius: 10px;
 }
 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
-  background: rgb(196, 196, 196); 
+  background: rgb(196, 196, 196);
   border-radius: 10px;
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(187, 187, 187); 
+  background: gray;
 }
+
+
+
+
+
+
 
 h1,
 h2,
@@ -229,8 +237,7 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
