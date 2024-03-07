@@ -39,7 +39,7 @@
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
-    transition: .3s;
+    transform: translateY(0);
 
 }
 
@@ -54,7 +54,7 @@
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
-
+    transform: translateY(-1px);
 }
 
 
