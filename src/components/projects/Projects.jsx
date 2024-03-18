@@ -183,7 +183,7 @@ const Projects = () => {
 
 
 
-                {/* AREA FOR HEALTHSURE PROJECT  */}
+                {/* AREA FOR Futurize PROJECT  */}
 
 
                 <div className="projects__content">
@@ -191,8 +191,9 @@ const Projects = () => {
 
 
                     <div>
-                        <i className="uil uil-heart-medical projects__icon"></i>
-                        <h3 className="projects__title">HealthSure - Medical Guidance & Analytics</h3>
+                        {/* <i className="uil uil-heart-medical projects__icon"></i> */}
+                        <i class="uil uil-rupee-sign projects__icon"></i>
+                        <h3 className="projects__title">Futurize - Investments Guidance Platform</h3>
 
                     </div>
 
@@ -204,8 +205,8 @@ const Projects = () => {
                         <div className="projects__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
-                            <h3 className="projects__modal-title">HealthSure</h3>
-                            <p className="projects__modal-description">Long queues, waiting hours and struggles just to seek medical aid? Say No More to all the inconveniences involved! </p>
+                            <h3 className="projects__modal-title">Futurize</h3>
+                            <p className="projects__modal-description">Seeking data-driven investment success? We've got you covered. Invest with utmost confidence! </p>
 
 
                             <ul className="projects__modal-projects grid">
@@ -214,7 +215,8 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Programmed an application that tackles problems faced whilst seeking hospitality and medication by 10%
+                                    <p className="projects__modal-info">
+                                        ML-driven platform optimizing investment decisions with fake news detection and advanced analytics.
                                     </p>
                                 </li>
 
@@ -223,14 +225,8 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Deployed user-innovative features such as seamless medicine delivery, doctor appointment bookings, etc</p>
-                                </li>
-
-
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-
-                                    <p className="projects__modal-info">Technology Stack: Android SDK, Java, XML, Firebase, Material Design UI
+                                    <p className="projects__modal-info">
+                                        Enhances user's financial decision-making process, improves efficiency by 20% and growth by 10%.
                                     </p>
                                 </li>
 
@@ -238,7 +234,17 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Role: Android Developer [Live Projects will be added soon]</p>
+                                    <p className="projects__modal-info">
+                                        Technology Stack: HTML, CSS, JavaScript, Python, Django, Flask, Ngrok, Keras, TensorFlow, ML Tools
+
+                                    </p>
+                                </li>
+
+
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+
+                                    <p className="projects__modal-info">Role: Front End Developer [Live Projects will be added soon]</p>
                                 </li>
 
 
@@ -247,7 +253,7 @@ const Projects = () => {
 
 
                                     <p className="projects__modal-info">Link and Results: {' '}
-                                        <a href="https://github.com/ankitdeb11/Medical-Analytics-HealthSure">GitHub Repository</a>
+                                        <a href="https://github.com/ankitdeb11/Futurize-ML-model">GitHub Repository</a>
                                     </p>
 
 
