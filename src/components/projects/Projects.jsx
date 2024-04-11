@@ -83,7 +83,7 @@ const Projects = () => {
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
                                     <p className="projects__modal-info">Link and Results: {' '}
-                                        <a href="https://github.com/ankitdeb11/reverb-main">GitHub Repository</a>
+                                        <a href="https://github.com/ankitdeb11/reverb-main">Live Link</a>
                                     </p>
                                 </li>
 
