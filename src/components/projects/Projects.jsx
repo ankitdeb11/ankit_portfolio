@@ -84,6 +84,7 @@ const Projects = () => {
 
                                     <p className="projects__modal-info">Link and Results: {' '}
                                         <a href="https://github.com/ankitdeb11/reverb-main">Github Repository</a>
+                                        <br />
                                         <a href="https://reverb-super.vercel.app/">Live Link</a>
                                     </p>
                                 </li>
